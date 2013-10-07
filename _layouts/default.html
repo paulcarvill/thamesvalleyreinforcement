@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>{{ page.title }}</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <link rel="stylesheet" href="/css/css.css">
+    <!--[if IE]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  
+  <body>
+    
+    {% include header.html %}
+    
+    <div id="main">
+      {{ page.main }}
+    </div>
+    
+    <div id="secondary">
+      {{ content }}
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+</html>
