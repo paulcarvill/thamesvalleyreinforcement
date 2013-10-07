@@ -159,7 +159,7 @@ nav ul li, nav ul li a {
   nav ul li:last-child {
     display: none;
   }
-  
+
   h1 {
     margin: 10px;
   }
@@ -225,7 +225,7 @@ footer {
   margin-top: 20px;
   padding-top: 20px;
   border-top: 1px dotted #666;
-  background: url(/assets/logotype.png) 653px 30px no-repeat;
+  background: url(../assets/logotype.png) 653px 30px no-repeat;
 }
 
 nav a.active {
