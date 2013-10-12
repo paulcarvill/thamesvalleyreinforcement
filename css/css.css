@@ -27,6 +27,7 @@ header a {
 
 nav {
   background-color: black;
+  min-height: 700px;
 }
 
 nav ul li, nav ul li a {
