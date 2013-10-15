@@ -92,6 +92,10 @@ nav ul li, nav ul li a {
     margin-right: 100px;
   }
 
+  nav {
+    min-height: 700px;
+  }
+  
   nav ul li {
     padding: 10px;
     border-bottom: 1px solid #fff;
@@ -177,7 +181,6 @@ nav ul li, nav ul li a {
     position: absolute;
     top: 10px;
     right: 0;
-    min-height: 700px;
   }
 }
 
